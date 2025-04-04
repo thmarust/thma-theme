@@ -309,7 +309,7 @@
         "tree.tableOddRowsBackground": "#3c4650",
         "walkThrough.embeddedEditorBackground": "#37414b",
         "walkthrough.stepTitle.foreground": "#b0c0d0",
-        "widget.shadow": "#00000050",
+        "widget.shadow": "#00000050"
     },
     "tokenColors": [
         {
@@ -723,5 +723,6 @@
                 "foreground": "#B267E6"
             }
         }
-    ]
+    ],
+    "semanticHighlighting": true
 }
