@@ -8,4 +8,4 @@ A Visual Studio Code theme
 
 - ### Dark
 
-![Dark](https://github.com/thmarust/thma-theme/raw/main/assets/theme-dark.png)
+![Dark](https://cdn.jsdelivr.net/gh/thmarust/thma-theme/assets/theme-dark.png)
