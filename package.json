@@ -1,0 +1,36 @@
+{
+    "name": "thma-theme",
+    "version": "1.0.0",
+    "displayName": "Thma Theme",
+    "description": "A Visual Studio Code theme",
+    "license": "MIT",
+    "publisher": "thma",
+    "author": {
+        "name": "Thma"
+    },
+    "engines": {
+        "vscode": "^1.90.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "extensionKind": [
+        "ui",
+        "workspace"
+    ],
+    "keywords": [
+        "thma",
+        "theme"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Thma Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/thma-dark.json"
+            }
+        ]
+    },
+    "repository": {},
+    "icon": "icon.png"
+}
