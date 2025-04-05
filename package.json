@@ -1,6 +1,6 @@
 {
     "name": "thma-theme",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "Thma Theme",
     "description": "A Visual Studio Code theme",
     "license": "MIT",
@@ -38,5 +38,9 @@
     "bugs": {
         "url": "https://github.com/thmarust/thma-theme/issues"
     },
-    "icon": "icon.png"
+    "icon": "icon.png",
+    "galleryBanner": {
+        "color": "#2d3741",
+        "theme": "dark"
+    }
 }
