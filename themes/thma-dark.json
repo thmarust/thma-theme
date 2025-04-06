@@ -408,7 +408,7 @@
         {
             "scope": "constant",
             "settings": {
-                "foreground": "#FF0000"
+                "foreground": "#888AF9"
             }
         },
         {
@@ -525,7 +525,7 @@
                 "invalid.deprecated"
             ],
             "settings": {
-                "foreground": "#FF2A00",
+                "foreground": "#A0B0C0",
                 "fontStyle": "italic"
             }
         },
