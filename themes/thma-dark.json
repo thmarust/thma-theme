@@ -245,7 +245,7 @@
         "statusBar.focusBorder": "#323c46",
         "statusBar.foreground": "#b0c0d0",
         "statusBar.noFolderBackground": "#323c46",
-        "statusBar.noFolderForeground": "#323c46",
+        "statusBar.noFolderForeground": "#b0c0d0",
         "statusBarItem.activeBackground": "#00000000",
         "statusBarItem.compactHoverBackground": "#00000000",
         "statusBarItem.errorBackground": "#00000000",
@@ -525,8 +525,7 @@
                 "invalid.deprecated"
             ],
             "settings": {
-                "foreground": "#A0B0C0",
-                "fontStyle": "italic"
+                "foreground": "#FF2A00"
             }
         },
         {
