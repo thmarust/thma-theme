@@ -463,11 +463,12 @@
         },
         {
             "scope": [
-                "support.type",
+                "support.",
                 "storage.type.modifier",
                 "storage.type.primitive",
                 "entity.name.type.primitive",
                 "entity.name.type.numeric",
+                "support.type.builtin",
                 "support.type.built-in",
                 "variable.other.enummember"
             ],
@@ -478,7 +479,6 @@
         {
             "scope": [
                 "entity.",
-                "entity.name.type",
                 "entity.name.decorator",
                 "entity.name.scope-resolution",
                 "support.class"
@@ -495,7 +495,6 @@
                 "entity.name.tag",
                 "storage.type",
                 "storage.modifier",
-                "support.type.property-name",
                 "variable.other.alias",
                 "punctuation.definition.directive"
             ],
@@ -608,6 +607,16 @@
             "scope": "punctuation.separator.annotation.result.python",
             "settings": {
                 "foreground": "#C678DD"
+            }
+        },
+        {
+            "scope": [
+                "support.type.property-name.json",
+                "punctuation.support.type.property-name.begin.json",
+                "punctuation.support.type.property-name.end.json"
+            ],
+            "settings": {
+                "foreground": "#65AEFF"
             }
         },
         {
