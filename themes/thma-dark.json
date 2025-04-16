@@ -26,15 +26,15 @@
         "button.background": "#455565",
         "button.foreground": "#b0c0d0",
         "button.hoverBackground": "#506070",
-        "button.secondaryBackground": "#405060",
-        "button.secondaryForeground": "#b0c0d0b0",
+        "button.secondaryBackground": "#405060e0",
+        "button.secondaryForeground": "#b0c0d0f0",
         "button.secondaryHoverBackground": "#455565",
         "button.separator": "#708090",
         "chart.axis": "#b0c0d0",
         "chart.guide": "#b0c0d0",
         "chat.avatarBackground": "#2d3741",
         "chat.requestBorder": "#455565",
-        "checkbox.background": "#37414b",
+        "checkbox.background": "#37424d",
         "checkbox.border": "#45556575",
         "checkbox.foreground": "#b0c0d0",
         "checkbox.selectBackground": "#323c46",
@@ -56,7 +56,7 @@
         "diffEditor.diagonalFill": "#50607080",
         "diffEditor.move.border": "#455565",
         "disabledForeground": "#708090",
-        "dropdown.background": "#37414b",
+        "dropdown.background": "#37424d",
         "dropdown.border": "#45556575",
         "dropdown.foreground": "#b0c0d0",
         "editor.background": "#323c46",
@@ -129,7 +129,7 @@
         "gitDecoration.ignoredResourceForeground": "#708090",
         "icon.foreground": "#b0c0d0",
         "inlineChatInput.placeholderForeground": "#708090",
-        "input.background": "#37414b",
+        "input.background": "#37424d",
         "input.border": "#45556575",
         "input.foreground": "#b0c0d0",
         "inputOption.activeBackground": "#50607080",
@@ -149,8 +149,8 @@
         "list.dropBackground": "#50607080",
         "list.dropBetweenBackground": "#50607080",
         "list.highlightForeground": "#9e95fd",
-        "list.hoverBackground": "#37414b",
-        "list.inactiveSelectionBackground": "#37414b",
+        "list.hoverBackground": "#37424d",
+        "list.inactiveSelectionBackground": "#37424d",
         "menu.background": "#323c46",
         "menu.foreground": "#b0c0d0",
         "menu.selectionBackground": "#2d3741",
@@ -167,7 +167,7 @@
         "minimapSlider.hoverBackground": "#50607050",
         "multiDiffEditor.headerBackground": "#2d3741",
         "notebook.cellBorderColor": "#45556575",
-        "notebook.cellEditorBackground": "#37414b",
+        "notebook.cellEditorBackground": "#37424d",
         "notebook.cellStatusBarItemHoverBackground": "#45556575",
         "notebook.cellToolbarSeparator": "#455565",
         "notebook.focusedCellBorder": "#7457f0",
@@ -217,19 +217,19 @@
         "searchEditor.findMatchBackground": "#50607080",
         "searchEditor.findMatchBorder": "#506070",
         "selection.background": "#50607080",
-        "settings.checkboxBackground": "#37414b",
+        "settings.checkboxBackground": "#37424d",
         "settings.checkboxBorder": "#45556575",
         "settings.checkboxForeground": "#b0c0d0",
-        "settings.dropdownBackground": "#37414b",
+        "settings.dropdownBackground": "#37424d",
         "settings.dropdownBorder": "#45556575",
         "settings.dropdownForeground": "#b0c0d0",
         "settings.dropdownListBorder": "#45556575",
-        "settings.focusedRowBackground": "#37414b",
+        "settings.focusedRowBackground": "#2d3843",
         "settings.focusedRowBorder": "#455565",
         "settings.headerBorder": "#455565",
         "settings.headerForeground": "#b0c0d0",
         "settings.modifiedItemIndicator": "#7457f0",
-        "settings.rowHoverBackground": "#2d3741",
+        "settings.rowHoverBackground": "#2e3842",
         "settings.sashBorder": "#45556535",
         "settings.settingsHeaderHoverForeground": "#d0e0f0",
         "sideBar.background": "#323c46",
@@ -287,7 +287,7 @@
         "terminal.inactiveSelectionBackground": "#50607040",
         "terminal.selectionBackground": "#50607080",
         "terminal.tab.activeBorder": "#b0c0d0",
-        "terminalCommandDecoration.defaultBackground": "#37414b",
+        "terminalCommandDecoration.defaultBackground": "#37424d",
         "terminalCursor.foreground": "#b0c0d0",
         "terminalOverviewRuler.cursorForeground": "#b0c0d0",
         "textBlockQuote.background": "#2d3741",
@@ -308,14 +308,14 @@
         "tree.indentGuidesStroke": "#708090",
         "tree.tableColumnsBorder": "#455565",
         "tree.tableOddRowsBackground": "#3c4650",
-        "walkThrough.embeddedEditorBackground": "#37414b",
+        "walkThrough.embeddedEditorBackground": "#37424d",
         "walkthrough.stepTitle.foreground": "#b0c0d0",
         "widget.shadow": "#00000050"
     },
     "tokenColors": [
         {
             "scope": [
-                "comment",
+                "comment.",
                 "comment.block",
                 "comment.line",
                 "punctuation.definition.comment"
@@ -326,7 +326,7 @@
         },
         {
             "scope": [
-                "keyword.operator",
+                "keyword.operator.",
                 "storage.modifier.pointer",
                 "punctuation.separator.key-value"
             ],
@@ -336,6 +336,7 @@
         },
         {
             "scope": [
+                "punctuation.",
                 "punctuation.accessor",
                 "punctuation.comma",
                 "punctuation.other",
@@ -366,7 +367,8 @@
         },
         {
             "scope": [
-                "variable",
+                "variable.",
+                "variable.other.property",
                 "punctuation.definition.variable"
             ],
             "settings": {
@@ -383,6 +385,7 @@
         },
         {
             "scope": [
+                "string.",
                 "string.quoted",
                 "string.unquoted",
                 "string.template",
@@ -474,6 +477,7 @@
         },
         {
             "scope": [
+                "entity.",
                 "entity.name.type",
                 "entity.name.decorator",
                 "entity.name.scope-resolution",
@@ -485,7 +489,8 @@
         },
         {
             "scope": [
-                "keyword",
+                "keyword.",
+                "storage.",
                 "meta.tag",
                 "entity.name.tag",
                 "storage.type",
@@ -586,6 +591,14 @@
             }
         },
         {
+            "scope": [
+                "storage.type.annotation.dart"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
             "scope": "variable.parameter.function.language.special.self.python",
             "settings": {
                 "foreground": "#A0B8FA"
@@ -630,8 +643,10 @@
         },
         {
             "scope": [
+                "entity.name.section.markdown",
                 "markup.heading.markdown",
-                "meta.separator.markdown"
+                "meta.separator.markdown",
+                "punctuation.definition.heading.markdown"
             ],
             "settings": {
                 "foreground": "#65BBFF",
