@@ -375,7 +375,8 @@
                 "punctuation.separator.variable.ruby",
                 "variable.",
                 "variable.other.",
-                "variable.other.php"
+                "variable.other.php",
+                "variable.scss"
             ],
             "settings": {
                 "foreground": "#B0C0D0"
@@ -390,7 +391,7 @@
                 "entity.name.type.module.ruby",
                 "entity.name.type.namespace",
                 "entity.other.attribute-name.namespace",
-                "storage.modifier.import.java"
+                "meta.import.java variable.language.wildcard.java"
             ],
             "settings": {
                 "foreground": "#70C29E"
@@ -398,6 +399,7 @@
         },
         {
             "scope": [
+                "storage.modifier.import.java",
                 "storage.modifier.package.java",
                 "support.other.namespace",
                 "variable.language.namespace.php"
@@ -414,8 +416,8 @@
                 "entity.name.decorator",
                 "entity.name.function.decorator.python",
                 "keyword.constant.bool.zig",
-                "keyword.other.preprocessor.extension.haskell",
-                "meta.function.decorator.python"
+                "keyword.other.important.css",
+                "keyword.other.preprocessor.extension.haskell"
             ],
             "settings": {
                 "foreground": "#788EDD"
@@ -423,6 +425,7 @@
         },
         {
             "scope": [
+                "meta.function.decorator.python",
                 "punctuation.definition.annotation",
                 "punctuation.definition.constant",
                 "punctuation.definition.decorator.python",
@@ -449,12 +452,12 @@
             "scope": [
                 "constant.language.symbol.hashkey.ruby",
                 "entity.name.variable.field",
-                "entity.other.attribute-name.pseudo-class.css",
                 "entity.other.attribute.lua",
                 "meta.field.declaration.js variable.object.property.js",
                 "meta.field.declaration.js.jsx variable.object.property.js.jsx",
                 "meta.field.declaration.ts variable.object.property.ts",
-                "meta.field.declaration.tsx variable.object.property.tsx"
+                "meta.field.declaration.tsx variable.object.property.tsx",
+                "meta.member.access.python meta.attribute.python"
             ],
             "settings": {
                 "foreground": "#97C0E9"
@@ -462,11 +465,11 @@
         },
         {
             "scope": [
-                "meta.member.access.python meta.attribute.python",
                 "meta.object.member.js meta.object-literal.key.js",
                 "meta.object.member.js.jsx meta.object-literal.key.js.jsx",
                 "meta.object.member.ts meta.object-literal.key.ts",
                 "meta.object.member.tsx meta.object-literal.key.tsx",
+                "support.type.property-name.css",
                 "variable.other.member.objc",
                 "variable.other.object.property.cs",
                 "variable.other.object.property.java"
@@ -555,9 +558,9 @@
                 "entity.name.tag.yaml",
                 "entity.name.tag.yaml punctuation.definition.string.begin.yaml",
                 "entity.name.tag.yaml punctuation.definition.string.end.yaml",
-                "keyword.",
-                "keyword.control.",
-                "keyword.control.at-rule.include.scss"
+                "entity.other.attribute-name.class.css",
+                "entity.other.attribute-name.id.css",
+                "keyword."
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -565,14 +568,14 @@
         },
         {
             "scope": [
+                "keyword.control.",
                 "keyword.control.clojure",
                 "keyword.control.r",
                 "keyword.operator.alignas",
                 "keyword.operator.alignof",
                 "keyword.operator.cast",
                 "keyword.operator.expression",
-                "keyword.operator.instanceof",
-                "keyword.operator.logical.python"
+                "keyword.operator.instanceof"
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -580,14 +583,14 @@
         },
         {
             "scope": [
+                "keyword.operator.logical.python",
                 "keyword.operator.new",
                 "keyword.operator.sizeof",
                 "keyword.operator.typeid",
                 "keyword.operator.wordlike",
                 "punctuation.definition.block.tag.jsdoc",
-                "punctuation.definition.group.regexp",
-                "punctuation.definition.keyword.scss",
-                "punctuation.definition.storage.type.objc"
+                "punctuation.definition.entity.css",
+                "punctuation.definition.group.regexp"
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -595,6 +598,7 @@
         },
         {
             "scope": [
+                "punctuation.definition.storage.type.objc",
                 "punctuation.support.type.property-name",
                 "storage.",
                 "storage.type.class.jsdoc",
@@ -608,13 +612,13 @@
         {
             "scope": [
                 "constant.language.access-type.sassdoc",
+                "keyword.control.at-rule.import.scss",
+                "keyword.control.at-rule.include.scss",
+                "keyword.control.at-rule.media.css",
                 "keyword.control.export.js",
                 "keyword.control.export.js.jsx",
                 "keyword.control.export.ts",
-                "keyword.control.export.tsx",
-                "keyword.control.from.js",
-                "keyword.control.from.js.jsx",
-                "keyword.control.from.ts"
+                "keyword.control.export.tsx"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -622,14 +626,14 @@
         },
         {
             "scope": [
+                "keyword.control.from.js",
+                "keyword.control.from.js.jsx",
+                "keyword.control.from.ts",
                 "keyword.control.from.tsx",
                 "keyword.control.goto.cpp",
                 "keyword.control.goto.php",
                 "keyword.control.import.go",
-                "keyword.control.import.include.php",
-                "keyword.control.import.js",
-                "keyword.control.import.js.jsx",
-                "keyword.control.import.python"
+                "keyword.control.import.include.php"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -637,14 +641,14 @@
         },
         {
             "scope": [
+                "keyword.control.import.js",
+                "keyword.control.import.js.jsx",
+                "keyword.control.import.python",
                 "keyword.control.import.ts",
                 "keyword.control.import.tsx",
                 "keyword.control.module.ruby",
                 "keyword.local.lua",
-                "keyword.map.go",
-                "keyword.operator.",
-                "keyword.operator.expression.await.cs",
-                "keyword.other.directive.using.cs"
+                "keyword.map.go"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -652,14 +656,14 @@
         },
         {
             "scope": [
+                "keyword.operator.",
+                "keyword.operator.expression.await.cs",
+                "keyword.other.directive.using.cs",
                 "keyword.other.export.cpp",
                 "keyword.other.import.dart",
                 "keyword.other.import.haskell",
                 "keyword.other.namespace.php",
-                "keyword.other.preprocessor.pragma.haskell",
-                "keyword.other.use-as.php",
-                "keyword.other.use.php",
-                "keyword.other.using.directive.cpp"
+                "keyword.other.preprocessor.pragma.haskell"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -667,14 +671,29 @@
         },
         {
             "scope": [
+                "keyword.other.use-as.php",
+                "keyword.other.use.php",
+                "keyword.other.using.directive.cpp",
                 "markup.quote.markdown",
                 "meta.block.namespace.cpp entity.name.type.parameter.cpp",
                 "punctuation.definition.group.assertion.regexp",
+                "punctuation.definition.keyword.css",
+                "punctuation.definition.keyword.scss"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.definition.quote.begin.markdown",
                 "punctuation.definition.table.markdown",
                 "punctuation.section.embedded.begin.php",
                 "punctuation.section.embedded.end.php",
-                "punctuation.separator.delimiter.php"
+                "punctuation.separator.delimiter.php",
+                "punctuation.separator.question-mark.cs",
+                "punctuation.separator.table.markdown",
+                "storage.modifier.async.cs"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -682,14 +701,14 @@
         },
         {
             "scope": [
-                "punctuation.separator.question-mark.cs",
-                "punctuation.separator.table.markdown",
-                "storage.modifier.async.cs",
                 "storage.modifier.async.js",
                 "storage.modifier.async.js.jsx",
                 "storage.modifier.async.ts",
                 "storage.modifier.async.tsx",
-                "storage.modifier.file.cs"
+                "storage.modifier.file.cs",
+                "storage.modifier.internal.cs",
+                "storage.modifier.mut.rust",
+                "storage.modifier.private.cs"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -697,14 +716,14 @@
         },
         {
             "scope": [
-                "storage.modifier.internal.cs",
-                "storage.modifier.mut.rust",
-                "storage.modifier.private.cs",
                 "storage.modifier.protected.cs",
                 "storage.modifier.public.cs",
                 "storage.modifier.reference.cpp",
                 "storage.type.function.async.python",
-                "storage.type.modifier.access.control.internal.cpp"
+                "storage.type.modifier.access.control.internal.cpp",
+                "storage.type.modifier.access.control.private.cpp",
+                "storage.type.modifier.access.control.protected.cpp",
+                "storage.type.modifier.access.control.public.cpp"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -712,10 +731,8 @@
         },
         {
             "scope": [
-                "storage.type.modifier.access.control.private.cpp",
-                "storage.type.modifier.access.control.protected.cpp",
-                "storage.type.modifier.access.control.public.cpp",
-                "storage.type.modifier.access.public.cpp"
+                "storage.type.modifier.access.public.cpp",
+                "variable.parameter.url.css"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -729,8 +746,8 @@
                 "entity.name.type.class",
                 "entity.name.type.struct",
                 "entity.name.type.struct.rust",
-                "entity.other.attribute-name.class.css",
-                "punctuation.definition.heading.markdown"
+                "punctuation.definition.heading.markdown",
+                "storage.type.generic.java"
             ],
             "settings": {
                 "foreground": "#33CCCC"
@@ -738,21 +755,13 @@
         },
         {
             "scope": [
-                "storage.type.generic.java",
                 "storage.type.haskell",
                 "storage.type.java",
                 "support.class.component.js",
                 "support.class.component.js.jsx",
                 "support.class.component.tsx",
                 "support.class.php",
-                "support.class.ruby"
-            ],
-            "settings": {
-                "foreground": "#33CCCC"
-            }
-        },
-        {
-            "scope": [
+                "support.class.ruby",
                 "support.type.cocoa.leopard.objc"
             ],
             "settings": {
@@ -773,7 +782,7 @@
                 "entity.name.type.trait.php"
             ],
             "settings": {
-                "foreground": "#B8D7A3"
+                "foreground": "#ACD194"
             }
         },
         {
@@ -787,7 +796,7 @@
                 "variable.function"
             ],
             "settings": {
-                "foreground": "#B28DF5"
+                "foreground": "#AD89F5"
             }
         },
         {
@@ -851,8 +860,8 @@
         {
             "scope": [
                 "entity.other.attribute-name",
-                "meta.attribute.",
-                "punctuation.definition.entity.css"
+                "entity.other.attribute-name.pseudo-class.css",
+                "meta.attribute."
             ],
             "settings": {
                 "foreground": "#888AF9"
@@ -872,140 +881,132 @@
                 "entity.name.type.any.go",
                 "entity.name.type.numeric.rust",
                 "entity.name.type.primitive.rust",
-                "keyword.control.default.js",
-                "keyword.control.default.js.jsx",
-                "keyword.control.default.ts",
-                "keyword.control.default.tsx"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
                 "keyword.operator.expression.default.cs",
                 "keyword.type.bool.cs",
                 "keyword.type.byte.cs",
-                "keyword.type.char.cs",
+                "keyword.type.char.cs"
+            ],
+            "settings": {
+                "foreground": "#DB70B8"
+            }
+        },
+        {
+            "scope": [
                 "keyword.type.decimal.cs",
                 "keyword.type.double.cs",
                 "keyword.type.dynamic.cs",
-                "keyword.type.float.cs"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
+                "keyword.type.float.cs",
                 "keyword.type.int.cs",
                 "keyword.type.integer.zig",
                 "keyword.type.long.cs",
-                "keyword.type.nint.cs",
+                "keyword.type.nint.cs"
+            ],
+            "settings": {
+                "foreground": "#DB70B8"
+            }
+        },
+        {
+            "scope": [
                 "keyword.type.nuint.cs",
                 "keyword.type.object.cs",
                 "keyword.type.sbyte.cs",
-                "keyword.type.short.cs"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
+                "keyword.type.short.cs",
                 "keyword.type.string.cs",
                 "keyword.type.uint.cs",
                 "keyword.type.ulong.cs",
-                "keyword.type.ushort.cs",
+                "keyword.type.ushort.cs"
+            ],
+            "settings": {
+                "foreground": "#DB70B8"
+            }
+        },
+        {
+            "scope": [
                 "keyword.type.void.cs",
                 "keyword.type.zig",
                 "storage.modifier.specifier.functional.post-parameters.noexcept.cpp",
-                "storage.type.boolean.go"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
+                "storage.type.boolean.go",
                 "storage.type.built-in.c",
                 "storage.type.built-in.cpp",
                 "storage.type.built-in.objc",
-                "storage.type.built-in.primitive.c",
+                "storage.type.built-in.primitive.c"
+            ],
+            "settings": {
+                "foreground": "#DB70B8"
+            }
+        },
+        {
+            "scope": [
                 "storage.type.built-in.primitive.cpp",
                 "storage.type.built-in.primitive.objc",
                 "storage.type.byte.go",
-                "storage.type.error.go"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
+                "storage.type.error.go",
                 "storage.type.id.objc",
                 "storage.type.numeric.go",
                 "storage.type.primitive.array.java",
-                "storage.type.primitive.java",
+                "storage.type.primitive.java"
+            ],
+            "settings": {
+                "foreground": "#DB70B8"
+            }
+        },
+        {
+            "scope": [
                 "storage.type.rune.go",
                 "storage.type.string.go",
                 "storage.type.template.argument.size_t.cpp",
-                "storage.type.uintptr.go"
-            ],
-            "settings": {
-                "foreground": "#8F90F3"
-            }
-        },
-        {
-            "scope": [
+                "storage.type.uintptr.go",
                 "storage.type.union.c",
                 "storage.type.union.cpp",
                 "support.",
-                "support.type.built-in",
-                "support.type.builtin",
-                "support.type.lua",
-                "support.type.primitive.js",
-                "support.type.primitive.js.jsx"
+                "support.type.built-in"
             ],
             "settings": {
-                "foreground": "#8F90F3"
+                "foreground": "#DB70B8"
             }
         },
         {
             "scope": [
+                "support.type.builtin",
+                "support.type.lua",
+                "support.type.primitive.js",
+                "support.type.primitive.js.jsx",
                 "support.type.primitive.ts",
                 "support.type.primitive.tsx"
             ],
             "settings": {
-                "foreground": "#8F90F3"
+                "foreground": "#DB70B8"
             }
         },
         {
             "scope": [
-                "markup.underline.link.image.markdown",
-                "markup.underline.link.markdown",
+                "entity.name.function.support.builtin.go",
                 "support.function",
                 "support.function.any-method.objc",
                 "support.function.builtin.shell",
                 "support.function.js",
                 "support.function.js.jsx",
-                "support.function.magic.python"
+                "support.function.magic.python",
+                "support.function.ts"
             ],
             "settings": {
-                "foreground": "#A688F9"
+                "foreground": "#C871F4"
             }
         },
         {
             "scope": [
-                "support.function.ts",
                 "support.function.tsx"
             ],
             "settings": {
-                "foreground": "#A688F9"
+                "foreground": "#C871F4"
             }
         },
         {
             "scope": [
+                "support.type.object.module.js",
+                "support.type.object.module.js.jsx",
+                "support.type.object.module.ts",
+                "support.type.object.module.tsx",
                 "variable.language",
                 "variable.language.this.php",
                 "variable.language.this.php punctuation.definition.variable.php",
@@ -1030,6 +1031,16 @@
             ],
             "settings": {
                 "foreground": "#F28E36"
+            }
+        },
+        {
+            "scope": [
+                "markup.underline.link.image.markdown",
+                "markup.underline.link.markdown",
+                "variable.parameter.url.scss"
+            ],
+            "settings": {
+                "foreground": "#A688F9"
             }
         },
         {
