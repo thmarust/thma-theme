@@ -17,6 +17,6 @@ A Visual Studio Code theme
 
 - ### Dark
 
-![Dark](https://cdn.jsdelivr.net/gh/thmarust/thma-theme/assets/theme-dark.png)
+![Dark](https://cdn.jsdelivr.net/gh/thmarust/thma-theme@latest/assets/theme-dark.png)
 
-![Golang](https://cdn.jsdelivr.net/gh/thmarust/thma-theme/screenshots/dark/golang.png)
+![Golang](https://cdn.jsdelivr.net/gh/thmarust/thma-theme@latest/screenshots/dark/golang.png)
