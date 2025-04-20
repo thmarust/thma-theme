@@ -13,6 +13,10 @@ A Visual Studio Code theme
 
 #### [Repository](https://github.com/thmarust/thma-theme)
 
+## Screenshots
+
 - ### Dark
 
 ![Dark](https://cdn.jsdelivr.net/gh/thmarust/thma-theme/assets/theme-dark.png)
+
+![Golang](https://cdn.jsdelivr.net/gh/thmarust/thma-theme/screenshots/dark/golang.png)
