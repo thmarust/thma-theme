@@ -286,7 +286,7 @@
         "symbolIcon.namespaceForeground": "#70c29e",
         "symbolIcon.nullForeground": "#788edd",
         "symbolIcon.numberForeground": "#58b68d",
-        "symbolIcon.objectForeground": "#b0c0d0",
+        "symbolIcon.objectForeground": "#33cccc",
         "symbolIcon.operatorForeground": "#db70b8",
         "symbolIcon.packageForeground": "#70c29e",
         "symbolIcon.propertyForeground": "#97c0e9",
@@ -296,7 +296,7 @@
         "symbolIcon.textForeground": "#ebbb71",
         "symbolIcon.typeParameterForeground": "#33cccc",
         "symbolIcon.unitForeground": "#58b68d",
-        "symbolIcon.variableForeground": "#b0c0d0",
+        "symbolIcon.variableForeground": "#65aeff",
         "tab.activeBackground": "#323c46",
         "tab.activeBorder": "#b0c0d0",
         "tab.activeForeground": "#b0c0d0",
@@ -363,7 +363,9 @@
         {
             "scope": [
                 "comment.",
-                "punctuation.definition.comment"
+                "punctuation.definition.comment",
+                "punctuation.definition.tag.begin.html",
+                "punctuation.definition.tag.end.html"
             ],
             "settings": {
                 "foreground": "#8090A0"
@@ -378,7 +380,7 @@
                 "keyword.operator.namespace.rust",
                 "keyword.operator.navigation.groovy",
                 "keyword.operator.string.php",
-                "punctuation."
+                "meta.embedded.expression.dart"
             ],
             "settings": {
                 "foreground": "#B0C0D0"
@@ -386,14 +388,14 @@
         },
         {
             "scope": [
+                "punctuation.",
                 "punctuation.decorator.js",
                 "punctuation.decorator.js.jsx",
                 "punctuation.decorator.ts",
                 "punctuation.decorator.tsx",
                 "punctuation.definition.character-class.regexp",
                 "punctuation.definition.constant.hashkey.ruby",
-                "punctuation.definition.constant.ruby",
-                "punctuation.definition.variable.less"
+                "punctuation.definition.constant.ruby"
             ],
             "settings": {
                 "foreground": "#B0C0D0"
@@ -401,13 +403,24 @@
         },
         {
             "scope": [
+                "punctuation.definition.variable.less",
                 "punctuation.definition.variable.php",
                 "punctuation.definition.variable.ruby",
                 "punctuation.separator.variable.ruby",
                 "support.other.variable.less",
-                "variable.",
+                "support.type.custom-property.less",
+                "support.type.custom-property.name.less",
+                "variable."
+            ],
+            "settings": {
+                "foreground": "#B0C0D0"
+            }
+        },
+        {
+            "scope": [
                 "variable.other.",
                 "variable.other.php",
+                "variable.other.readwrite",
                 "variable.scss"
             ],
             "settings": {
@@ -422,8 +435,8 @@
                 "entity.name.tag.namespace",
                 "entity.name.type.module.ruby",
                 "entity.name.type.namespace",
-                "entity.other.attribute-name.namespace",
-                "meta.at-rule.import.less punctuation.definition.string.begin.less"
+                "entity.namespace.r",
+                "entity.other.attribute-name.namespace"
             ],
             "settings": {
                 "foreground": "#70C29E"
@@ -431,6 +444,7 @@
         },
         {
             "scope": [
+                "meta.at-rule.import.less punctuation.definition.string.begin.less",
                 "meta.at-rule.import.less punctuation.definition.string.end.less",
                 "meta.at-rule.import.less string",
                 "meta.import.java variable.language.wildcard.java",
@@ -469,9 +483,19 @@
                 "punctuation.definition.decorator.python",
                 "punctuation.definition.entity.html",
                 "punctuation.definition.list.begin.markdown",
+                "source.css keyword.other.unit"
+            ],
+            "settings": {
+                "foreground": "#788EDD"
+            }
+        },
+        {
+            "scope": [
                 "storage.type.annotation",
+                "storage.type.format.python",
                 "support.function.attribute.fsharp",
-                "variable.other.enummember"
+                "variable.other.enummember",
+                "variable.other.source.dart"
             ],
             "settings": {
                 "foreground": "#788EDD"
@@ -587,14 +611,14 @@
         },
         {
             "scope": [
-                "entity.name.command.shell",
                 "entity.name.tag",
                 "entity.name.tag.yaml",
                 "entity.name.tag.yaml punctuation.definition.string.begin.yaml",
                 "entity.name.tag.yaml punctuation.definition.string.end.yaml",
                 "entity.other.attribute-name.class.css",
                 "entity.other.attribute-name.class.less",
-                "entity.other.attribute-name.id.css"
+                "entity.other.attribute-name.id.css",
+                "keyword."
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -602,14 +626,14 @@
         },
         {
             "scope": [
-                "keyword.",
                 "keyword.control.",
                 "keyword.control.clojure",
                 "keyword.control.elixir",
                 "keyword.control.r",
                 "keyword.operator.alignas",
                 "keyword.operator.alignof",
-                "keyword.operator.at.batchfile"
+                "keyword.operator.at.batchfile",
+                "keyword.operator.cast"
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -617,14 +641,14 @@
         },
         {
             "scope": [
-                "keyword.operator.cast",
                 "keyword.operator.expression",
                 "keyword.operator.instanceof",
                 "keyword.operator.logical.python",
                 "keyword.operator.new",
                 "keyword.operator.sizeof",
                 "keyword.operator.typeid",
-                "keyword.operator.wordlike"
+                "keyword.operator.wordlike",
+                "meta.at-rule.header.css punctuation.definition.keyword.css"
             ],
             "settings": {
                 "foreground": "#65AEFF"
@@ -664,14 +688,14 @@
         },
         {
             "scope": [
+                "keyword.control.at-rule.media.scss",
                 "keyword.control.export.js",
                 "keyword.control.export.js.jsx",
                 "keyword.control.export.ts",
                 "keyword.control.export.tsx",
                 "keyword.control.from.js",
                 "keyword.control.from.js.jsx",
-                "keyword.control.from.ts",
-                "keyword.control.from.tsx"
+                "keyword.control.from.ts"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -679,14 +703,14 @@
         },
         {
             "scope": [
+                "keyword.control.from.tsx",
                 "keyword.control.goto.cpp",
                 "keyword.control.goto.php",
                 "keyword.control.import.go",
                 "keyword.control.import.include.php",
                 "keyword.control.import.js",
                 "keyword.control.import.js.jsx",
-                "keyword.control.import.python",
-                "keyword.control.import.ts"
+                "keyword.control.import.python"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -694,14 +718,14 @@
         },
         {
             "scope": [
+                "keyword.control.import.ts",
                 "keyword.control.import.tsx",
                 "keyword.control.module.ruby",
                 "keyword.local.lua",
                 "keyword.map.go",
                 "keyword.operator.",
                 "keyword.operator.expression.await.cs",
-                "keyword.other.directive.using.cs",
-                "keyword.other.export.cpp"
+                "keyword.other.directive.using.cs"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -709,14 +733,14 @@
         },
         {
             "scope": [
+                "keyword.other.export.cpp",
                 "keyword.other.import.dart",
                 "keyword.other.import.haskell",
                 "keyword.other.namespace.php",
                 "keyword.other.preprocessor.pragma.haskell",
                 "keyword.other.use-as.php",
                 "keyword.other.use.php",
-                "keyword.other.using.directive.cpp",
-                "keyword.symbol.fsharp"
+                "keyword.other.using.directive.cpp"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -724,14 +748,14 @@
         },
         {
             "scope": [
+                "keyword.symbol.fsharp",
                 "markup.quote.markdown",
+                "meta.at-rule.media.header.css punctuation.definition.keyword.css",
+                "meta.at-rule.media.scss punctuation.definition.keyword.scss",
                 "meta.block.namespace.cpp entity.name.type.parameter.cpp",
                 "meta.import.js keyword.control.as.js",
                 "meta.import.js.jsx keyword.control.as.js.jsx",
-                "meta.import.ts keyword.control.as.ts",
-                "meta.import.tsx keyword.control.as.tsx",
-                "punctuation.definition.group.assertion.regexp",
-                "punctuation.definition.keyword.css"
+                "meta.import.ts keyword.control.as.ts"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -739,14 +763,14 @@
         },
         {
             "scope": [
+                "meta.import.tsx keyword.control.as.tsx",
+                "punctuation.definition.group.assertion.regexp",
+                "punctuation.definition.keyword.css",
                 "punctuation.definition.keyword.less",
                 "punctuation.definition.keyword.less",
                 "punctuation.definition.keyword.scss",
                 "punctuation.definition.map.elixir",
-                "punctuation.definition.quote.begin.markdown",
-                "punctuation.definition.table.markdown",
-                "punctuation.section.embedded.begin.php",
-                "punctuation.section.embedded.end.php"
+                "punctuation.definition.quote.begin.markdown"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -754,14 +778,29 @@
         },
         {
             "scope": [
+                "punctuation.definition.table.markdown",
+                "punctuation.section.embedded.begin.php",
+                "punctuation.section.embedded.end.php",
                 "punctuation.separator.delimiter.php",
                 "punctuation.separator.question-mark.cs",
+                "punctuation.separator.statement.and.shell",
+                "punctuation.separator.statement.background.shell",
+                "punctuation.separator.statement.or.shell"
+            ],
+            "settings": {
+                "foreground": "#C678DD"
+            }
+        },
+        {
+            "scope": [
                 "punctuation.separator.table.markdown",
                 "storage.modifier.access-control.groovy",
                 "storage.modifier.async.cs",
                 "storage.modifier.async.js",
                 "storage.modifier.async.js.jsx",
-                "storage.modifier.async.ts"
+                "storage.modifier.async.ts",
+                "storage.modifier.async.tsx",
+                "storage.modifier.file.cs"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -769,14 +808,14 @@
         },
         {
             "scope": [
-                "storage.modifier.async.tsx",
-                "storage.modifier.file.cs",
                 "storage.modifier.internal.cs",
                 "storage.modifier.mut.rust",
                 "storage.modifier.private.cs",
                 "storage.modifier.protected.cs",
                 "storage.modifier.public.cs",
-                "storage.modifier.reference.cpp"
+                "storage.modifier.reference.cpp",
+                "storage.type.function.async.python",
+                "storage.type.modifier.access.control.internal.cpp"
             ],
             "settings": {
                 "foreground": "#C678DD"
@@ -784,8 +823,6 @@
         },
         {
             "scope": [
-                "storage.type.function.async.python",
-                "storage.type.modifier.access.control.internal.cpp",
                 "storage.type.modifier.access.control.private.cpp",
                 "storage.type.modifier.access.control.protected.cpp",
                 "storage.type.modifier.access.control.public.cpp",
@@ -817,6 +854,7 @@
                 "storage.type.groovy",
                 "storage.type.haskell",
                 "storage.type.java",
+                "support.class.",
                 "support.class.component.js",
                 "support.class.component.js.jsx",
                 "support.class.component.tsx",
@@ -847,6 +885,7 @@
         },
         {
             "scope": [
+                "entity.name.command.shell",
                 "entity.name.function",
                 "entity.name.function.rust",
                 "entity.name.function.support.go",
@@ -1009,7 +1048,7 @@
                 "storage.type.id.objc",
                 "storage.type.numeric.go",
                 "storage.type.primitive.array.java",
-                "storage.type.primitive.groovy"
+                "storage.type.primitive.dart"
             ],
             "settings": {
                 "foreground": "#DB70B8"
@@ -1017,14 +1056,14 @@
         },
         {
             "scope": [
+                "storage.type.primitive.groovy",
                 "storage.type.primitive.java",
                 "storage.type.rune.go",
                 "storage.type.string.go",
                 "storage.type.template.argument.bool.cpp",
                 "storage.type.template.argument.byte.cpp",
                 "storage.type.template.argument.char.cpp",
-                "storage.type.template.argument.double.cpp",
-                "storage.type.template.argument.float.cpp"
+                "storage.type.template.argument.double.cpp"
             ],
             "settings": {
                 "foreground": "#DB70B8"
@@ -1032,14 +1071,14 @@
         },
         {
             "scope": [
+                "storage.type.template.argument.float.cpp",
                 "storage.type.template.argument.int.cpp",
                 "storage.type.template.argument.int16_t.cpp",
                 "storage.type.template.argument.int32_t.cpp",
                 "storage.type.template.argument.int64_t.cpp",
                 "storage.type.template.argument.int8_t.cpp",
                 "storage.type.template.argument.short.cpp",
-                "storage.type.template.argument.size_t.cpp",
-                "storage.type.template.argument.uint.cpp"
+                "storage.type.template.argument.size_t.cpp"
             ],
             "settings": {
                 "foreground": "#DB70B8"
@@ -1047,14 +1086,14 @@
         },
         {
             "scope": [
+                "storage.type.template.argument.uint.cpp",
                 "storage.type.template.argument.uint16_t.cpp",
                 "storage.type.template.argument.uint32_t.cpp",
                 "storage.type.template.argument.uint64_t.cpp",
                 "storage.type.template.argument.uint8_t.cpp",
                 "storage.type.template.argument.unsigned.cpp",
                 "storage.type.template.argument.ushort.cpp",
-                "storage.type.uintptr.go",
-                "storage.type.union.c"
+                "storage.type.uintptr.go"
             ],
             "settings": {
                 "foreground": "#DB70B8"
@@ -1062,6 +1101,7 @@
         },
         {
             "scope": [
+                "storage.type.union.c",
                 "storage.type.union.cpp",
                 "support.",
                 "support.type.built-in",
